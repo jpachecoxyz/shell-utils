@@ -23,7 +23,9 @@ The repository is organized into directories based on the environment and window
 - x11/i3 :: Scripts for i3 on X11.
 
 * Installation
-To install the scripts, use the provided `install.sh` script. You can install scripts for a specific window manager or all at once.
+To install the scripts, use the provided `install.sh` script. You can install scripts for a specific window manager or all at once. 
+
+NOTE: The =install.sh= scripts use =$HOME/.local/bin= as the target, you can edit this variable inside the script, or copy the files manually somewhere as you have your path.
 
 #+BEGIN_SRC shell
 # Install scripts for a specific window manager
@@ -51,8 +53,7 @@ We welcome contributions! If you'd like to contribute, please follow these steps
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
 * Contact
-For questions or suggestions, please open an issue on GitHub or contact [Your Name](mailto:your.email@example.com).
-
+For questions or suggestions, please open an issue on GitHub or contact [[mailto:javier@jpacheco.xyz][Javier pacheco]].
 * TODO
 - Add more scripts for i3 and Sway.
 - Improve documentation.

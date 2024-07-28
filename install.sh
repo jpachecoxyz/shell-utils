@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Set the target installation directory
-INSTALL_DIR="/tmp"
+INSTALL_DIR="$HOME/.local/bin"
 
 # Ensure the installation directory exists
 mkdir -p "$INSTALL_DIR"
