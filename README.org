@@ -1,0 +1,61 @@
+#+TITLE: Shell Utilities for X11 and Wayland Window Managers
+#+AUTHOR: Javier Pacheco
+#+DATE: 2024-07-27
+#+OPTIONS: toc:nil
+
+* Overview
+Welcome to the Shell Utilities repository! This project provides a collection of shell scripts tailored for different window managers and environments, including i3, Hyprland, and Sway, on X11 and Wayland.
+
+* Repository Structure
+The repository is organized into directories based on the environment and window manager:
+
+#+begin_src shell
+.
+├── wayland
+│   ├── hyprland
+│   └── sway
+└── x11
+    └── i3
+#+end_src
+
+- wayland/hyprland :: Scripts for Hyprland on Wayland.
+- wayland/sway :: Scripts for Sway on Wayland.
+- x11/i3 :: Scripts for i3 on X11.
+
+* Installation
+To install the scripts, use the provided `install.sh` script. You can install scripts for a specific window manager or all at once.
+
+#+BEGIN_SRC shell
+# Install scripts for a specific window manager
+./install.sh sway
+./install.sh hyprland
+./install.sh i3
+
+# Install all scripts
+./install.sh all
+#+END_SRC
+
+* Usage
+Each script includes usage instructions in the comments at the top. You can run a script directly from the terminal or integrate it into your workflow.
+
+* Contributing
+We welcome contributions! If you'd like to contribute, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or fix.
+3. Make your changes and commit them with descriptive messages.
+4. Push your changes to your fork.
+5. Submit a pull request to the main repository.
+
+* License
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+* Contact
+For questions or suggestions, please open an issue on GitHub or contact [Your Name](mailto:your.email@example.com).
+
+* TODO
+- Add more scripts for i3 and Sway.
+- Improve documentation.
+- Create a wiki for common use cases.
+
+Thank you for your interest in the project!
