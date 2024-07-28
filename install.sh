@@ -9,7 +9,7 @@ mkdir -p "$INSTALL_DIR"
 # Function to copy scripts from a specified directory
 install_scripts() {
 	local source_dir="$1"
-	cp "$source_dir"/* "$INSTALL_DIR"
+	find "$source_dir" -type f ! -name 'README.org' -exec cp {} "$INSTALL_DIR" \;
 }
 
 case $1 in
