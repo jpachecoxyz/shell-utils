@@ -1,0 +1,31 @@
+#+TITLE: General Linux Tools
+#+AUTHOR: Linuxero (linuxeando) / Javier Pacheco
+#+DATE: 2024-07-27
+#+OPTIONS: toc:nil
+
+* Overview
+The `tools` directory hosts a collection of miscellaneous shell scripts designed to simplify and automate various tasks on Linux systems. These scripts are not specific to any window manager and can be useful in a variety of contexts.
+
+* Scripts
+
+1. **example-script1**
+   - *Description*: (Provide a brief description of what this script does, e.g., "This script automates backup of specified directories.")
+   - *Usage*: Run `example-script1 [options]` where `[options]` might include specific directories, configurations, etc.
+
+2. **example-script2**
+   - *Description*: (Describe another script, e.g., "This script monitors system resources and logs usage statistics.")
+   - *Usage*: Run `example-script2` to start monitoring.
+
+* Installation
+These scripts can be installed using the =install.sh= script provided in the main directory of the repository. 
+
+#+BEGIN_SRC shell
+# Install scripts from the tools directory
+./install.sh tools
+#+END_SRC
+
+* Usage
+Each script includes usage instructions in the comments at the top. You can run a script directly from the terminal or integrate it into your workflow.
+
+* Contributing
+We welcome contributions! If you'd like to contribute, please see the main repository's `README.org` for guidelines.

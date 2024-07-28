@@ -1,0 +1,28 @@
+#+TITLE: i3 Scripts
+#+AUTHOR: Linuxero (linuxeando)
+#+DATE: 2024-07-27
+#+OPTIONS: toc:nil
+
+* Overview
+This directory contains shell scripts that provide additional functionality and improvements for the i3 window manager on X11.
+
+* Scripts
+
+(Include descriptions of scripts specific to i3, if any.)
+
+* Installation
+Refer to the main repository's `README.org` for installation instructions using the `install.sh` script.
+
+* Installation
+These scripts can be installed using the =install.sh= script provided in the main directory of the repository. 
+
+#+BEGIN_SRC shell
+# Install scripts from the tools directory
+./install.sh tools
+#+END_SRC
+
+* Usage
+Each script includes usage instructions in the comments at the top. You can run a script directly from the terminal or integrate it into your workflow.
+
+* Contributing
+We welcome contributions! If you'd like to contribute, please see the main repository's =README.org= for guidelines.

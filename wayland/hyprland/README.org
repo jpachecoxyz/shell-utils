@@ -1,1 +1,45 @@
-#+title: Hyprland utils
+#+TITLE: Hyprland Scripts
+#+AUTHOR: Javier Pacheco / Linuxero (linuxeando)
+#+DATE: 2024-07-27
+#+OPTIONS: toc:nil
+
+* Overview
+This directory contains shell scripts specifically tailored for managing and enhancing the Hyprland window manager on Wayland. Each script offers different functionalities to improve the user experience.
+
+* Scripts
+
+1. hypr-gaps
+   - *Description*: This script manages the gaps between windows, allowing you to adjust the space around windows for a cleaner look.
+   - *Usage*: Run =hypr-gaps [option]= to set the gap size. Replace =[size]= with the desired gap option:
+     - -i :: increment.
+     - -d :: decrement.
+     - -r :: reset to the deafult gap set in your =hyprland.conf= 
+
+2. hypr-scratchpads
+   - *Description*: Implements a scratchpad functionality, allowing you to toggle specific applications on and off the screen, making them easily accessible but hidden when not needed.
+   - *Usage*: Run =hypr-scratchpads [command]=. Use =[command]= to specify the application or action (e.g. =hypr-scratchpads terminal=).
+This scripts works hand on hand within your window rules settings in your =hyprland.conf= file; here are some examples:
+
+#+begin_src conf
+# scratchpads rules! floating and center always
+$scratchpad = class:^(scratchpad)$
+windowrulev2 = float,$scratchpad
+windowrulev2 = center,$scratchpad
+#+end_src
+
+3. hypr-animations
+   - *Description*: Controls the animation settings for window transitions, providing a smoother visual experience.
+   - *Usage*: Run =hypr-animations= to turn animations on or off.
+
+* Installation
+These scripts can be installed using the =install.sh= script provided in the main directory of the repository. 
+
+#+BEGIN_SRC shell
+# Install scripts from the tools directory
+./install.sh tools
+#+END_SRC
+
+* Contributing
+Contributions are welcome! Please see the main repository's =README.org= for contribution guidelines.
+
+Thank you for using these scripts!

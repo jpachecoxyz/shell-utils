@@ -1,0 +1,24 @@
+#+TITLE: Sway Scripts
+#+AUTHOR: Linuxero (linuxeando)
+#+DATE: 2024-07-27
+#+OPTIONS: toc:nil
+
+* Overview
+This directory contains shell scripts designed to enhance the functionality of the Sway window manager on Wayland.
+
+* Scripts
+
+(Include descriptions of scripts specific to Sway, if any.)
+
+* Installation
+These scripts can be installed using the =install.sh= script provided in the main directory of the repository. 
+
+#+BEGIN_SRC shell
+# Install scripts from the tools directory
+./install.sh tools
+#+END_SRC
+
+* Contributing
+Contributions are welcome! Please see the main repository's =README.org= for contribution guidelines.
+
+Thank you for using these scripts!
