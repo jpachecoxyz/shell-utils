@@ -23,7 +23,7 @@ The repository is organized into directories based on the environment and window
 - x11/i3 :: Scripts for i3 on X11.
 
 * Installation
-To install the scripts, use the provided `install.sh` script. You can install scripts for a specific window manager or all at once. 
+To install the scripts, use the provided =install.sh= script. You can install scripts for a specific window manager or all at once. 
 
 NOTE: The =install.sh= scripts use =$HOME/.local/bin= as the target, you can edit this variable inside the script, or copy the files manually somewhere as you have your path.
 
