@@ -8,13 +8,9 @@ The `tools` directory hosts a collection of miscellaneous shell scripts designed
 
 * Scripts
 
-1. **example-script1**
-   - *Description*: (Provide a brief description of what this script does, e.g., "This script automates backup of specified directories.")
-   - *Usage*: Run `example-script1 [options]` where `[options]` might include specific directories, configurations, etc.
-
-2. **example-script2**
-   - *Description*: (Describe another script, e.g., "This script monitors system resources and logs usage statistics.")
-   - *Usage*: Run `example-script2` to start monitoring.
+1. fzmount
+   - *Description*: A mount usb drives and android phones using fzf.
+   - *Usage*: Run =fzmount= in the terminal, it'll open a fzf menu for mount or umount devices.
 
 * Installation
 These scripts can be installed using the =install.sh= script provided in the main directory of the repository. 
