@@ -31,6 +31,16 @@ windowrulev2 = center,$scratchpad
    - *Description*: Controls the animation settings for window transitions, providing a smoother visual experience.
    - *Usage*: Run =hypr-animations= to turn animations on or off.
 
+4. hypr-screenrecord.
+   - *Description*: This scripts uses tofi as a menu to record the screen. It have 3 modes of recording:
+     - screencast -> This record the whole screen.
+     - area -> This use =slurp= to select a section of the screen.
+     - share -> This will upload the recorded video to =0x0.st=.
+     The scripts will record the audio of the sound card, this means that if you are listening some audio or vide, etc. it wil be recorded in the video, otherwise the video is going to be in silence.
+     By default the video is going to be stored in =/tmp/screencast.mp4=, If you want to record multiple videos the script is going to override the last video stored.
+
+   - *Usage*: Run =hypr-screenrecorder= in the terminal or as a keybind. It will be appear the tofi menu to select the required option.
+
 * Installation
 These scripts can be installed using the =install.sh= script provided in the main directory of the repository. 
 
